@@ -1,0 +1,63 @@
+html{
+  zoom: 175%;
+}
+
+@media screen and (max-width: 4050px) {
+  html {
+    zoom: 150%;
+  }
+}
+
+@media screen and (max-width: 2150px) {
+  html {
+    zoom: 125%;
+  }
+}
+
+@media screen and (max-width: 1850px) {
+  html {
+    zoom: 100%;
+  }
+}
+
+@media screen and (max-width: 1550px){
+  html {
+    zoom: 95%;
+  }
+}
+
+@media screen and (max-width: 1350px){
+  html {
+    zoom: 75%;
+  }
+}
+
+.overlay{
+  position: absolute;
+  display: none;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.overlay span{
+  word-wrap: break-word;
+  font-size: 2rem;
+  font-weight: bold;
+  width: 100%;
+  padding: 20px;
+}
+
+@media screen and (max-width: 900px) {
+  .overlay{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .App{
+    display: none;
+  }
+  
+}
